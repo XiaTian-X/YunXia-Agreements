@@ -1,0 +1,75 @@
+{
+  "format_version": 1,
+  "origin": {
+    "cutoff_commit": "bf25ad2257e48d6fc13b116d5b46802ad4517bf6",
+    "repository": "https://github.com/XiaTian-X/YunXia.git"
+  },
+  "payloads": [
+    {
+      "agreement": {
+        "agreement_id": "yunxia-license",
+        "sha256": "4c6f00bd5fe27674863d67a80b08a823b064251d565ac6b42528d1b936eacc57",
+        "version": "0.9.2-draft.1"
+      },
+      "files": {
+        "notes.md": {
+          "commit": "cc76cb61f05c48f51e22f67af3660b261d213e32",
+          "path": "releases/yunxia-license/0.9.2-draft.1/notes.md",
+          "sha256": "5f98dee55228cf5efb09d77f4a7f417ca4ffe85704d13670947b0ebcbbffde99"
+        },
+        "text.txt": {
+          "commit": "cc76cb61f05c48f51e22f67af3660b261d213e32",
+          "path": "releases/yunxia-license/0.9.2-draft.1/text.txt",
+          "sha256": "4c6f00bd5fe27674863d67a80b08a823b064251d565ac6b42528d1b936eacc57"
+        }
+      }
+    },
+    {
+      "agreement": {
+        "agreement_id": "yunxia-license",
+        "sha256": "4c38bbc1f654f0fb9e9eeef65a708ac9a52ea832d48a2af95d58b3e374c79bba",
+        "version": "0.9.3-draft.1"
+      },
+      "files": {
+        "notes.md": {
+          "commit": "cc76cb61f05c48f51e22f67af3660b261d213e32",
+          "path": "releases/yunxia-license/0.9.3-draft.1/notes.md",
+          "sha256": "5f98dee55228cf5efb09d77f4a7f417ca4ffe85704d13670947b0ebcbbffde99"
+        },
+        "text.txt": {
+          "commit": "cc76cb61f05c48f51e22f67af3660b261d213e32",
+          "path": "releases/yunxia-license/0.9.3-draft.1/text.txt",
+          "sha256": "4c38bbc1f654f0fb9e9eeef65a708ac9a52ea832d48a2af95d58b3e374c79bba"
+        }
+      }
+    },
+    {
+      "agreement": {
+        "agreement_id": "yunxia-license",
+        "sha256": "1d29032215369e616aaf3e8cb10541a4774346870cbc4fe3ff4711e3eba91936",
+        "version": "0.9.3-draft.2"
+      },
+      "files": {
+        "notes.md": {
+          "commit": "cc76cb61f05c48f51e22f67af3660b261d213e32",
+          "path": "releases/yunxia-license/0.9.3-draft.2/notes.md",
+          "sha256": "5f98dee55228cf5efb09d77f4a7f417ca4ffe85704d13670947b0ebcbbffde99"
+        },
+        "text.txt": {
+          "commit": "cc76cb61f05c48f51e22f67af3660b261d213e32",
+          "path": "releases/yunxia-license/0.9.3-draft.2/text.txt",
+          "sha256": "1d29032215369e616aaf3e8cb10541a4774346870cbc4fe3ff4711e3eba91936"
+        }
+      }
+    }
+  ],
+  "registry_files": {
+    "registry/yunxia-license/0.9.2-draft.1.json": "3b509cf1a1372448a852fadb42bd3bc9e9a5971a4867f555cda25b84451a1a13",
+    "registry/yunxia-license/0.9.3-draft.1.json": "b4a376c433d08aef0e0fba825aedb24fefb4e62f0c4358c24e8ddb1a110e903d",
+    "registry/yunxia-license/0.9.3-draft.2.json": "76f63c199a1446a58a04e8f9a40c91a4265dacc81304626297cfc4496b8e6520"
+  },
+  "retained_history": {
+    "commit": "bf25ad2257e48d6fc13b116d5b46802ad4517bf6",
+    "ref": "refs/heads/history/pre-split"
+  }
+}

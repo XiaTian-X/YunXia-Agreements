@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "scope": "允夏系列协议资料及维护事实",
+  "origin": {
+    "repository": "https://github.com/XiaTian-X/YunXia.git",
+    "cutoff_commit": "bf25ad2257e48d6fc13b116d5b46802ad4517bf6",
+    "record_path": "docs/provenance.json",
+    "record_sha256": "24ae85888dee35f4db2f539a7fe7aa2fcca964c1c8e223dff6a7fb381ea98cb9",
+    "record_url": "https://github.com/XiaTian-X/YunXia/blob/bf25ad2257e48d6fc13b116d5b46802ad4517bf6/docs/provenance.json"
+  },
+  "migration_manifest": "provenance/repository-migration.json",
+  "migration": {
+    "date": "2026-11-02",
+    "description": "协议资料迁入独立仓库，main 与固定历史来源分支分开维护；原字节、登记和来源引用保持。",
+    "license_text_changed": false,
+    "formal_release_created": false,
+    "formal_adoption_created": false,
+    "backup_created": false
+  },
+  "unresolved_facts": "原来源记录中的权属、制作来源及实际采用未知项保持待核；迁移不补造确认。"
+}
