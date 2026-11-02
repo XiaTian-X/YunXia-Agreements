@@ -2,10 +2,11 @@
 
 本仓库只维护协议资料和真实维护记录。先读 [AGENTS.md](../AGENTS.md)、[系列原则](principles.md) 及目标协议的设计和审阅材料。
 
-通用维护流程只在工具仓库保存。读取 `toolchain.lock.json` 的 `repository` 和 `commit`，从该确切提交读取 `docs/maintenance.md`；使用同一工具版本执行检查和维护，不复制另一份命令手册。工具仓库的 [项目入口](https://github.com/XiaTian-X/YunXia) 仅用于导航，不替代锁定提交。
+通用维护流程只在工具仓库保存。读取 [toolchain.lock.json](../toolchain.lock.json) 的 `repository` 和 `commit`，从该确切提交读取 `AGENTS.md` 与 `docs/maintenance.md`；使用同一工具版本执行检查和维护，不复制另一份命令手册。工具仓库的 [项目入口](https://github.com/XiaTian-X/YunXia) 和 [获取工具说明](https://github.com/XiaTian-X/YunXia/blob/main/docs/development.md#toolchain) 用于发现工具，不能替代锁定提交。准备执行目录后，显式传入本协议仓库根路径，不把执行工具的目录当成协议目标。
 
 | 任务 | 固定工具指南章节 | 本仓库中的结果 |
 | --- | --- | --- |
+| 准备固定工具链 | `docs/development.md#toolchain` | 已核对来源、完整提交及执行目录 |
 | 从想法立项和起草 | `#create` | 协议定位、草案、设计取舍及待核项 |
 | 修改正文、说明或名称 | `#edit` | 当前材料及变更影响，固定历史保持不变 |
 | 实质审阅或冻结候选 | `#review` | 审阅分析、实际决定、候选登记及标签 |

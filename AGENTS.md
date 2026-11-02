@@ -2,7 +2,7 @@
 
 本仓库维护允夏系列协议的正文、设计、审阅、版本登记和发布事实。管理工具及项目采用 Skill 在独立的 YunXia 工具仓库开发。
 
-从 [任务导航](docs/README.md) 进入流程，先读 [系列原则](docs/principles.md) 和目标协议材料。按 `toolchain.lock.json` 的仓库地址与完整提交读取对应工具的 `AGENTS.md`、`docs/maintenance.md` 和实际 CLI，不能把最新工具分支当成已固定版本。
+从 [任务导航](docs/README.md) 进入流程，先读 [系列原则](docs/principles.md) 和目标协议材料。按 [toolchain.lock.json](toolchain.lock.json) 的仓库地址与完整提交读取对应工具的 `AGENTS.md`、`docs/maintenance.md` 和实际 CLI，不能把最新工具分支或父仓当前 HEAD 当成已固定版本。固定工具可在忽略的 `.yunxia-tool/` 执行目录准备；已有目录先核对独立 Git 根、远端、提交和工作树，不重置已有改动。
 
 本仓库即使放在工具仓库的 `repositories/` 内也独立提交和推送。执行前核对 Git 顶层路径、协议 ID、分支和远端，协议发布目标是本仓库；缺少本仓库时不向上操作父仓。
 
